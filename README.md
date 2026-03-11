@@ -1,6 +1,6 @@
-# kateog-rs
-kaiwaves awesome triangle engine (opengl)
+# kqcprs-rs
+kaiwaves quantum computing probabilistic rudimentary simulator
 
-potentially gonna grab the graphics stuff from kasrlp-rs and make it fuller or something
+gonna make some buns qubit simulator or something. will be good to learn probability and linear algebra implementations in rust
 
-long term plan tho. probs gonna be empty for a while
+long term plan tho. probs gonna be slow 
