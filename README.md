@@ -1,30 +1,30 @@
 # kqcprs-rs
-### what
-kaiwaves quantum computing probabilistic rudimentary simulator
+### What
+Kaiwaves Quantum Computing Probabilistic Rudimentary Simulator
 
-gonna make some buns qubit simulator or something.
+Don't mind the name, I needed something catchy and easy to pronounce as an acronym.
 
-long term plan tho. probs gonna be slow 
+Gonna be trying to make some sort of model to simulate basic quantum computing concepts in Rust :3
 
 ### why
-i really like quantum mechanics. or at least the concept of it. i havent learned much in uni.
+I think I like quantum mechanics, or at least to the level that I've learned as a measly second year student. 
 
-hopefully the understanding that i develop from this will help my future career in physics research. please let me into honours.
+Hopefully, the understanding that I develop from this will help my career in physics research. (Someone let me into honours please)
 
-outside of the obvious physics, will be good to learn probability and linear algebra implementations in rust and programming skills in general
+Outside of the obvious physics, will be good to learn probability and linear algebra implementations in Rust. And if I can do it in Rust, I can lowkey do it in anything.
 
 ### outline?
-good question. likely gonna make a small 2 or 4 qbit sim using linalg techniques like matrix mult and probabilities.
+Likely gonna make a small 4 qbit sort of simulator using linear algebra models like complex matrix representations and what not. Details TBD
 
-doing in rust to challenge myself and also teach skills like memory safety. if i can do it in rs, i can do it in anything. i hope
+The code will drip through glacially while I work through the intuition and develop an actual understanding for building models. Which I am only now taking a class for.
 
-i will need to improve my maths and my coding together but here is a rough idea. the code will drip through glacially while i work through the intuition and develop an actual understanding for computing 
+I'm thinking right now to build it around some engine which executes the neccesary multiplication and arithmetic, with gates and programs in a seperate file. 
 
-1. rust implementations of vector spaces to represent the state vector of qubits
+1. Rust implementations of vector spaces to represent the state vector of qubits
 - gotta understand what a state vector is 
 - using ndarray [[https://docs.rs/ndarray/]]
 - will mostly go in src/engine.rs
-2. understanding the math of tensor products and implementing them in rust
-3. creating matrices in rust to represent superposition and other quantum specific gates
-4. create an engine that can apply matrix multiplication to the qubits
-5. some sort of wave function collapse to simulate observation
+2. Understanding the math of tensor products and implementing them in rust
+3. Creating matrices in rust to represent superposition and other quantum specific gates
+4. Create an engine that can apply matrix multiplication to the qubits
+5. Some sort of wave function collapse to simulate observation
